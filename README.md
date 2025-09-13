@@ -28,7 +28,7 @@ openpyxl
 ```
 3. Push to GitHub and sign into https://share.streamlit.io with your GitHub account. Create a new app and select your repo and `yyxapp.py` as the main file.
 4. Streamlit Cloud will install dependencies and host the app. The share link will be something like:
-`https://share.streamlit.io/<your-username>/<repo-name>/main/yyxapp.py`
+(https://eating-and-deficit-gdyfg6q3vbiyamwfhuyqem.streamlit.app/)
 
 ## Notes
 - The nutrition values are approximate and for demo purposes. For clinical use, replace with authoritative data (USDA / country-specific database).
