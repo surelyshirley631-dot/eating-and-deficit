@@ -3,7 +3,7 @@ import pandas as pd
 
 # --- Load database ---
 @st.cache_data
-def load_db(path="nutrition_db.csv"):
+def load_db(path="nutrition_db_110.csv"):
     df = pd.read_csv(path)
     df['tags'] = df['tags'].fillna("").apply(lambda x: [t.strip().lower() for t in str(x).split(";") if t.strip()])
     df['allergens'] = df['allergens'].fillna("").apply(lambda x: [a.strip().lower() for a in str(x).split(";") if a.strip()])
