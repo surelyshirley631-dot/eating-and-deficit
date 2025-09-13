@@ -5,7 +5,7 @@ import pandas as pd
 # Load the food database
 # -----------------------------
 @st.cache_data
-def load_db(path="nutrition_db.csv"):
+def load_db(path="nutrition_db_110.csv"):
     df = pd.read_csv(path)
     return df
 
